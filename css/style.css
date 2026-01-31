@@ -27,7 +27,6 @@ video {
 .reel-header {
 	position: absolute;
 	align-items: center;
-	justify-content: space-between;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -38,6 +37,15 @@ video {
 	.nav_icon {
 		display: flex;
 		justify-content: space-between;
+
+		.btn_nav {
+		background-color: transparent;
+		border: none;
+		color: #fff;
+		font-size: 1.25rem;
+		padding: 1rem;
+	}
+
 	}
 }
 
@@ -63,6 +71,24 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	.side_icon {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+
+		.btn_side {
+			background-color: transparent;
+			color: #fff;
+			border: none;
+			font-size: 2rem;
+
+			.stats_icon {
+				font-size: 14px;
+			}
+		}
+
+	}
 }
 
 /* ---------------------
