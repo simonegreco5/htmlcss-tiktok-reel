@@ -34,6 +34,11 @@ video {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	.nav_icon {
+		display: flex;
+		justify-content: space-between;
+	}
 }
 
 /* Footer */
