@@ -24,6 +24,7 @@ video {
 	position: relative;
 }
 
+/* icone esterne nav */
 .reel-header {
 	position: absolute;
 	align-items: center;
@@ -48,24 +49,44 @@ video {
 
 	}
 }
-
+/* icone interne nav */
 .central {
 	display: flex;
 
 	.central_icon {
 		font-size: 1rem;
-		margin-left: 6px;
+		margin-left: 4px;
+		margin-right: 4px;
 		background-color: transparent;
 		border: none;
 
 	}
+    
+	/* differenziamo le icone centrali (esplora, seguiti, per te)
+	 con tre id (#icon_x), per poterle modificare singolarmente */
 
+    /* esplora */
 	#icon_1 {
 		color: #ffffff61;
 	}
+	/* seguiti */
 	#icon_2 {
 		color: #ffffff61;
+		position: relative;
+
+		.circle {
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			background-color: #ff000061;
+			position: absolute;
+			top: 1rem;
+			right: 0;
+			translate: 70%;
+
+		}
 	}
+	/* per te */
 	#icon_3 {
 		color: #fff;
 		border-bottom: #fff solid;
