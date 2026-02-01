@@ -39,15 +39,39 @@ video {
 		justify-content: space-between;
 
 		.btn_nav {
-		background-color: transparent;
-		border: none;
-		color: #fff;
-		font-size: 1.25rem;
-		padding: 1rem;
-	}
+		    background-color: transparent;
+		    border: none;
+		    color: #fff;
+		    font-size: 1.5rem;
+		    padding: 1rem;
+	   }
 
 	}
 }
+
+.central {
+	display: flex;
+
+	.central_icon {
+		font-size: 1rem;
+		margin-left: 6px;
+		background-color: transparent;
+		border: none;
+
+	}
+
+	#icon_1 {
+		color: #ffffff61;
+	}
+	#icon_2 {
+		color: #ffffff61;
+	}
+	#icon_3 {
+		color: #fff;
+		border-bottom: #fff solid;
+	}
+}
+
 
 /* Footer */
 
@@ -75,7 +99,7 @@ footer {
 	.side_icon {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
+		
 
 		.btn_side {
 			background-color: transparent;
