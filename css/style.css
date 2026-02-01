@@ -105,6 +105,27 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+
+	.description {
+		padding-left: 1rem;
+
+		.username {
+			font-size: 1rem;
+			padding-bottom: 5px;
+			
+		}
+
+		p {
+			width: 340px;
+		}
+
+		.btn_p {
+			background-color: transparent;
+			color: #fff;
+			border: none;
+		}
+	}
+	
 }
 
 /* Sidebar */
@@ -127,12 +148,29 @@ footer {
 			color: #fff;
 			border: none;
 			font-size: 2rem;
+			margin-bottom: 1.25rem;
 
 			.stats_icon {
 				font-size: 14px;
 			}
 		}
 
+		.btn_side_profile {
+			margin-bottom: 1.25rem;
+			position: relative;
+
+
+			.circle_plus {
+				position: absolute;
+				bottom: 0;
+				left: 45%;
+				translate: -40% 60%; 
+				font-size: 1.5rem;
+				color: red;
+				
+				
+			}
+		}
 	}
 }
 
