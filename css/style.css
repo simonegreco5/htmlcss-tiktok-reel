@@ -166,6 +166,8 @@ footer {
 			font-size: 2rem;
 			margin-bottom: 8px;
 			color: #fff;
+			text-shadow: 0 -3px 2px #ff00ff;
+			text-shadow: 0 3 2px #00ffff;
 		}
 
 		#bottom_icon_4 {
