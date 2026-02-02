@@ -108,9 +108,10 @@ footer {
 
 	.description {
 		padding-left: 1rem;
+		padding-bottom: 10px;
 
 		.username {
-			font-size: 1rem;
+			font-size: 15px;
 			padding-bottom: 5px;
 			
 		}
@@ -137,8 +138,59 @@ footer {
 		.btn_bottom_bar {
 			font-size: 1.40rem;
 			background-color: transparent;
-			color: #fff;
+			color: #ffffff61;
 			border: none;
+		}
+
+		.bottom_stats_icon {
+			font-size: 10px;
+			color: #ffffff61;
+		}
+
+		.bottom_stats_icon_home {
+			font-size: 10px;
+			color: #fff;
+		}
+
+		/* id specifici delle icone per modificarle singolarmente */
+		#bottom_icon_1 {
+			color: #fff;
+		}
+
+		#bottom_icon_2 {
+
+		}
+
+		#bottom_icon_3 {
+			transform: rotate(90deg);
+			font-size: 2rem;
+			margin-bottom: 8px;
+			color: #fff;
+		}
+
+		#bottom_icon_4 {
+			position: relative;
+
+			.circle_bottom {
+				position: absolute;
+				border: 1px solid red;
+				width: 18px;
+				height: 14px;
+				border-radius: 40%;
+				background-color: red;
+				top: 12px;
+				right: 13px;
+
+				.chat_number {
+					color: #fff;
+					font-size: 10px;
+				}
+			}
+
+		}
+		
+		#bottom_icon_5 {
+
 		}
 	}
 
