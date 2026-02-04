@@ -172,11 +172,15 @@ footer {
 
 		#bottom_icon_3 {
 			transform: rotate(90deg);
-			font-size: 2rem;
-			margin-bottom: 8px;
-			color: #fff;
-			text-shadow: 0 -3px 2px #ff00ff;
-			text-shadow: 0 3 2px #00ffff;
+			font-size: 1.6rem;
+			margin-bottom: 6px;
+			margin-top: 3px;
+			border-radius: 10px;
+			padding: 3px 2px;
+			height: 3rem;
+			border-style: none;
+			border-bottom: 2.5px solid #00ffff;
+			border-top: 2.5px solid #ff00ff;
 		}
 
 		#bottom_icon_4 {
